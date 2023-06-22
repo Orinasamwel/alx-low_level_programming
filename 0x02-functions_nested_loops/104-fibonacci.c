@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
-  *main - fibonacci 
-  *Description: prints the first 98 Fibonacci numbers
-  *Return: Always 0
-  */
+*main - fibonacci
+*Description: prints the first 98 Fibonacci numbers
+*Return: Always 0
+*/
 
 int main(void)
 {
@@ -42,7 +42,3 @@ int main(void)
 	printf("\n");
 	return (0);
 }
-
-
-
-
