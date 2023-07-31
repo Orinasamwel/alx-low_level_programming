@@ -2,7 +2,7 @@
 
 /**
  * listint_len - function that returns the number of elements in a linked
- * descriptions: header pointer
+ * @h: linked list of type listint_t to traverse
  * Return: number of elements
  */
 
