@@ -2,9 +2,11 @@
 #include <stdio.h>
 
 /**
- * 
+ *
  * Checks if the system is big endian or little endian
- * 
+ *
+ *Returns: 0 if big endian, 1 if little endian
+ *
  * Always return: 0 if big endian, 1 if little endian
  *
  **/
