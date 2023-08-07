@@ -94,11 +94,11 @@ void version(unsigned char *e_ident)
 }
 
 /**
- *orina - print the OSABI
- *@e_ident: the ELF struct
- *return: no return is a void func.
+ * osabi - print the osabi
+ * @e_ident: the ELF struct
+ * return: no return is a void func.
  */
-void orina(unsigned char *e_ident)
+void osabi(unsigned char *e_ident)
 {
 	printf("  OS/ABI:                            ");
 	if (e_ident[EI_OSABI] == ELFOSABI_SYSV)
